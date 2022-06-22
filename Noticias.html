@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Zaguate World</title>
+    <meta name="description" content="El Website de los Zaguates" />
+    <meta name="keywords" content="Zaguate, perro, perrito, adoptar" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 "/> 
+
+</head>
+
+<body>
+    <div id="container">
+        <img src="images/sun.png" alt="sunshine" />
+        
+
+        <div id="main">
+            <!--Cabecera-->
+            <header>
+                <div id="logo">
+                    <img id="picA" src="images/logo.png">
+                </div>
+            </header>
+            <br>
+
+            <!--Navegacion-->
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="Conciencia.html">Conciencia</a>
+                <a href="#home">Noticias</a>
+                <a href="Galeria.html">Galeria</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Adoptar 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="ZaguatesPequeños.html">Zaguates Pequeños</a>
+                    <a href="ZaguatesMedianos.html">Zaguates Medianos</a>
+                    <a href="ZaguatesGrandes.html">Zaguates Grandes</a>
+                  </div>
+                </div> 
+                <a href="AcercaNosotros.html">Acerca de nosotros</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+
+              <br><br>
+            <!--Contenido de la pagina-->  
+            <main>
+                <article id="Noticia1">
+                    <div>
+                        <h1>Costarricenses perciben que perros callejeros constituyen un riesgo para la salud pública</h1>
+                        ¿Cuántos perros calcula que hay en las calles de Costa Rica? Según estimaciones del 2012 del Servicio Nacional de Sanidad y Calidad Agroalimentaria (Senasa), 
+                        en el país había aproximadamente un millón de perros callejeros.  Al respecto, la percepción de la población costarricense es que la cantidad de perros en las 
+                        calles de Costa Rica ha aumentado en los últimos dos años, 
+                        según lo reveló la Encuesta Actualidades 2017 que realiza la Escuela de Estadística de la Universidad de Costa Rica (UCR). 
+                        <br><br>
+                        Según ese estudio, el 80,9% de la población considera que la cantidad de perros en las calles es alta y que cerca de la mitad de personas encuestadas 
+                        cree que esa situación afecta la salud pública, ya sea por mordeduras, daños varios a la propiedad o transmisión de enfermedades. 
+                        <br><br>
+                        El estudio, desarrollado por los estudiantes Noelia Rojas, Juan José Rojas, Shirley Herrera y Ericka Valerio, indicó además que el 60,2 % de las viviendas 
+                        costarricenses tiene perros como mascotas, y de estas, el 26,6% afirma que sus perros acostumbran a salir solos a las calles. 
+                        <br><br>
+                    </div>
+                </article>
+                <br><br><br>
+                <article id="Noticia2">
+                    <div>
+                        <h1>La covid-19 tiró a la calle a perros y gatos; abandono de mascotas se dispara</h1>
+                        “Trico”, estuvo amarrado en las afueras de un edificio en Tibás durante una semana.
+                        <br><br>
+                        “Maya”, estaba en un lote baldío en Puriscal con sus diez bebés.
+                        <br><br>
+                        “Blanca” fue expulsada de su casa y se encontraba en Alajuela.
+                        <br><br>
+                        odos estos animales tienen algo en común, fueron abandonados durante los 9 meses de la pandemia de la covid-19 en el país debido,
+                         principalmente, a los efectos económicos de la pandemia en las economías familiares.
+                         <br><br>
+                        “Trico estaba amarrado en un edificio de la Cruz Roja, tenía como una semana de estar ahí atado, ahí lo encontró una señora. Había demasiados 
+                        comentarios en el chat de la Municipalidad de Tibás sobre el asunto, pero nadie hacía nada”, relata Mónica Hernández, que sirve como casa cuna para los perritos.
+                        <br><br>
+                        Territorio de Zaguates, por ejemplo, hasta mediados de noviembre había rescatado 2.900 perros en los 9 meses de pandemia y en promedio recuperan 900 por año. Actualmente, en el sitio hay 1.919 animales.
+                        <br><br>
+                    </div>
+                </article>
+                <br><br><br>
+            </main>
+
+            <!--Pie de Página-->
+            <footer>
+                <div>
+                    <a href="#"><u>Home</u></a>
+                    <a href="#"><u>Conciencia</u></a>
+                    <a href="#"><u>Noticias</u></a>
+                    <a href="#"><u>Galeria</u></a>
+                    <a href="#"><u>Adoptar</u></a>
+                    <a class="last" href="#"><u>Acerca de Nosotros</u></a>
+                </div>
+                <br>
+                <credit>Copyright &copy; <u> Zaguate World</u></credit>
+                <br>            
+            </footer>
+        </div>
+    </div>
+
+<!--Es para el nav en el responsivo-->
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+</body>
+</html>

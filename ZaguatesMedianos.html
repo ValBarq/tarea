@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Zaguate World</title>
+    <meta name="description" content="El Website de los Zaguates" />
+    <meta name="keywords" content="Zaguate, perro, perrito, adoptar" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div id="container">
+        <img src="images/sun.png" alt="sunshine" />
+        
+
+        <div id="main">
+            <!--Cabecera-->
+            <header>
+                <div id="logo">
+                    <img id="picA" src="images/logo.png">
+                </div>
+            </header>
+
+            <!--Navegacion-->
+            <div class="topnav responsive" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="Conciencia.html">Conciencia</a>
+                <a href="Noticias.html">Noticias</a>
+                <a href="Galeria.html">Galeria</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Adoptar 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="ZaguatesPequeños.html">Zaguates Pequeños</a>
+                    <a href="#home">Zaguates Medianos</a>
+                    <a href="ZaguatesGrandes.html">Zaguates Grandes</a>
+                  </div>
+                </div> 
+                <a href="AcercaNosotros.html">Acerca de nosotros</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+
+              <br><br>
+
+              <!--Contenido de la pagina-->   
+            <main>
+                <article id="informacion">
+                    <div>
+                        <h1> Zaguates medianos en adopción </h1>
+                        Si estas buscando una mascota medianas, echales un vistazo y adopta a uno de estos.
+                        <br><br>
+                    </div>
+                </article>
+                <div id="Disponibles">
+                    <h1>Disponibles</h1>
+                </div>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Genero</th>
+                            <th>Edad</th>
+                            <th>Descripción</th>
+                            <th>Fotografia</th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="scrolls">
+                    <table>
+                        <tr>
+                            <td>Lucy</td>
+                            <td>Hembra</td>
+                            <td>1 Año</td>
+                            <td>Es super amorosa, juguetona y amigable</td>
+                            <td><img src="images/lucy.jpg" id="picB" ></td>
+                        </tr>
+                        <tr>
+                            <td>Maylo</td>
+                            <td>Macho</td>
+                            <td>1 Año</td>
+                            <td>Es muy enérgico, simpático y cariñoso</td>
+                            <td><img src="images/Maylo.jpg" id="picB"></td>
+                        </tr>
+                        <tr>
+                            <td>Locky</td>
+                            <td>Macho</td>
+                            <td>5 años</td>
+                            <td>Es muy cariñoso, amigable y protector</td>
+                            <td><img src="images/Locky.jpg" id="picB"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="ultimo">
+                    <table >
+                        <tr>
+                            <th> - </th>
+                            <th> - </th>
+                            <th> - </th>
+                            <th> - </th>
+                            <th> - </th>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+
+            <!--Pie de Página-->
+            <footer>
+                <div>
+                    <a href="#"><u>Home</u></a>
+                    <a href="#"><u>Conciencia</u></a>
+                    <a href="#"><u>Noticias</u></a>
+                    <a href="#"><u>Galeria</u></a>
+                    <a href="#"><u>Adoptar</u></a>
+                    <a class="last" href="#"><u>Acerca de Nosotros</u></a>
+                </div>
+                <br>
+                <credit>Copyright &copy; <u> Zaguate World</u></credit>
+                <br>            
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+</body>
+</html>
